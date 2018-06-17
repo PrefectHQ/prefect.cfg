@@ -15,3 +15,9 @@ Installs the following applications:
 - Slack (https://slack.com/)
 - Anaconda (https://www.anaconda.com/distribution/)
 - Hammerspoon (https://github.com/Hammerspoon/hammerspoon)
+
+## Configurations
+
+### Hammerspoon
+The `.hammerspoon` directory can be copied to your home folder. It contains an
+`init.lua` configuration for Hammerspoon.
