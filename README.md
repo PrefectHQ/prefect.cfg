@@ -1,7 +1,17 @@
 # Prefect.cfg
 
-Install / configure a new machine.
+The Prefect setup.
 
-## Get Started
+## Scripts
+### `applications.sh`
 
-Clone this repo and run `bash bootstrap.sh`
+Installs the following applications:
+- Homebrew (https://brew.sh)
+- Homebrew-Cask (https://caskroom.github.io/)
+- iTerm2 (https://www.iterm2.com/)
+- Google Chrome (https://www.google.com/chrome/)
+- 1Password (https://1password.com/)
+- VS Code (https://code.visualstudio.com/)
+- Slack (https://slack.com/)
+- Anaconda (https://www.anaconda.com/distribution/)
+- Hammerspoon (https://github.com/Hammerspoon/hammerspoon)

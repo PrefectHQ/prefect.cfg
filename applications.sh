@@ -1,26 +1,62 @@
+# Hombrew
+echo "--------------------------------------------------"
+echo "-> Installing Homebrew..."
+echo "-> https://brew.sh"
+echo "--------------------------------------------------\n"
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+# Homebrew-Cask
+echo "--------------------------------------------------"
+echo "-> Installing Homebrew-Cask..."
+echo "-> https://caskroom.github.io/"
+echo "--------------------------------------------------\n"
+brew tap homebrew/cask
+
 # Google Chrome
-echo "\n-> Installing Chrome...\n"
+echo "--------------------------------------------------"
+echo "-> Installing Chrome..."
+echo "-> https://www.google.com/chrome/"
+echo "--------------------------------------------------\n"
 brew cask install google-chrome
 
 # iterm2
-echo "\n-> Installing iTerm2...\n"
+echo "--------------------------------------------------"
+echo "-> Installing iTerm2..."
+echo "-> https://www.iterm2.com/"
+echo "--------------------------------------------------\n"
 brew cask install iterm2
 
 # 1Password
-echo "\n-> Installing 1Password...\n"
+echo "--------------------------------------------------"
+echo "-> Installing 1Password..."
+echo "-> https://1password.com/"
+echo "--------------------------------------------------\n"
 brew cask install 1password
 
 # VS Code
-echo "\n-> Installing VS Code...\n"
+echo "--------------------------------------------------"
+echo "-> Installing VS Code..."
+echo "-> https://code.visualstudio.com/"
+echo "--------------------------------------------------\n"
 brew cask install visual-studio-code
 
 # Slack
-echo "\n-> Installing Slack...\n"
+echo "--------------------------------------------------"
+echo "-> Installing Slack..."
+echo "-> https://slack.com/"
+echo "--------------------------------------------------\n"
 brew cask install slack
 
 # Anaconda
-echo "\n-> Installing Anaconda...\n"
+echo "--------------------------------------------------"
+echo "-> Installing Anaconda..."
+echo "-> https://www.anaconda.com/distribution/"
+echo "--------------------------------------------------\n"
 brew cask install anaconda
 
 # Hammerspoon
+echo "--------------------------------------------------"
+echo "-> Installing Hammerspoon..."
+echo "-> https://github.com/Hammerspoon/hammerspoon"
+echo "--------------------------------------------------\n"
 brew cask install hammerspoon
