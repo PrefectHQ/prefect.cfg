@@ -21,3 +21,6 @@ brew cask install slack
 # Anaconda
 echo "\n-> Installing Anaconda...\n"
 brew cask install anaconda
+
+# Hammerspoon
+brew cask install hammerspoon
