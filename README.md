@@ -3,7 +3,8 @@
 The Prefect setup.
 
 ## Scripts
-### `applications.sh`
+
+### applications
 
 Installs the following applications:
 - Homebrew (https://brew.sh)
@@ -13,8 +14,19 @@ Installs the following applications:
 - 1Password (https://1password.com/)
 - VS Code (https://code.visualstudio.com/)
 - Slack (https://slack.com/)
-- Anaconda (https://www.anaconda.com/distribution/)
 - Hammerspoon (https://github.com/Hammerspoon/hammerspoon)
+
+### python
+
+Installs Anaconda and additional Python dependencies, including:
+- black (formatter)
+- ipdb (debugger)
+- mypy (linter)
+- pylint (linter)
+
+### macos
+
+Installs various Mac OS extensions.
 
 ## Configurations
 
