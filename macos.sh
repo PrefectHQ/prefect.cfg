@@ -1,3 +1,8 @@
+echo "--------------------------------------------------"
+echo "-> Installing XCode command line tools..."
+echo "--------------------------------------------------"
+xcode-select --install
+
 # Quick Look extensions
 echo "--------------------------------------------------"
 echo "-> Installing QuickLook plugins:"
