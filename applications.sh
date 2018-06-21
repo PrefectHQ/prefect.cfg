@@ -57,7 +57,20 @@ brew cask install slack
 
 # Hammerspoon
 echo "--------------------------------------------------"
+echo "-> Installing Docker for Mac..."
+echo "-> https://www.docker.com/docker-mac"
+echo "--------------------------------------------------\n"
+brew cask install docker kitematic
+
+# Hammerspoon
+echo "--------------------------------------------------"
 echo "-> Installing Hammerspoon..."
 echo "-> https://github.com/Hammerspoon/hammerspoon"
 echo "--------------------------------------------------\n"
 brew cask install hammerspoon
+
+# Google Cloud SDK
+echo "--------------------------------------------------"
+echo "-> Installing Google Cloud SDK..."
+echo "--------------------------------------------------\n"
+brew cask install google-cloud-sdk
