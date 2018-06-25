@@ -12,14 +12,6 @@ echo "-> https://caskroom.github.io/"
 echo "--------------------------------------------------\n"
 brew tap homebrew/cask
 
-# Homebrew-Cask
-echo "--------------------------------------------------"
-echo "-> Installing Oh My Zsh..."
-echo "-> https://github.com/robbyrussell/oh-my-zsh"
-echo "--------------------------------------------------\n"
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-
-
 # Google Chrome
 echo "--------------------------------------------------"
 echo "-> Installing Chrome..."
@@ -27,12 +19,12 @@ echo "-> https://www.google.com/chrome/"
 echo "--------------------------------------------------\n"
 brew cask install google-chrome
 
-# iterm2
+# tmux
 echo "--------------------------------------------------"
-echo "-> Installing iTerm2..."
-echo "-> https://www.iterm2.com/"
+echo "-> Installing tmux..."
+echo "-> https://github.com/tmux/tmux"
 echo "--------------------------------------------------\n"
-brew cask install iterm2
+brew install tmux
 
 # 1Password
 echo "--------------------------------------------------"
@@ -41,13 +33,6 @@ echo "-> https://1password.com/"
 echo "--------------------------------------------------\n"
 brew cask install 1password
 
-# VS Code
-echo "--------------------------------------------------"
-echo "-> Installing VS Code..."
-echo "-> https://code.visualstudio.com/"
-echo "--------------------------------------------------\n"
-brew cask install visual-studio-code
-
 # Slack
 echo "--------------------------------------------------"
 echo "-> Installing Slack..."
@@ -55,22 +40,15 @@ echo "-> https://slack.com/"
 echo "--------------------------------------------------\n"
 brew cask install slack
 
-# Hammerspoon
-echo "--------------------------------------------------"
-echo "-> Installing Docker for Mac..."
-echo "-> https://www.docker.com/docker-mac"
-echo "--------------------------------------------------\n"
-brew cask install docker kitematic
-
-# Hammerspoon
-echo "--------------------------------------------------"
-echo "-> Installing Hammerspoon..."
-echo "-> https://github.com/Hammerspoon/hammerspoon"
-echo "--------------------------------------------------\n"
-brew cask install hammerspoon
-
 # Google Cloud SDK
 echo "--------------------------------------------------"
 echo "-> Installing Google Cloud SDK..."
 echo "--------------------------------------------------\n"
 brew cask install google-cloud-sdk
+
+# vim setup
+echo "--------------------------------------------------"
+echo "-> Installing some vim stuff..."
+echo "--------------------------------------------------\n"
+mkdir -p ~/.vim/colors
+curl -o ~/.vim/colors/apprentice.vim https://raw.githubusercontent.com/romainl/Apprentice/master/colors/apprentice.vim
