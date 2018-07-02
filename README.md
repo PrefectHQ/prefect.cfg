@@ -8,7 +8,6 @@ The Prefect setup.
 
 Installs the following applications:
 - Homebrew (https://brew.sh)
-- Homebrew-Cask (https://caskroom.github.io/)
 - iTerm2 (https://www.iterm2.com/)
 - Google Chrome (https://www.google.com/chrome/)
 - 1Password (https://1password.com/)
