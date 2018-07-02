@@ -30,5 +30,4 @@ Installs various Mac OS extensions.
 ## Configurations
 
 ### Hammerspoon
-The `.hammerspoon` directory can be copied to your home folder. It contains an
-`init.lua` configuration for Hammerspoon.
+The `hammerspoon` directory can be copied to your home folder as `.hammerspoon` (note the leading dot). It contains an `init.lua` configuration for Hammerspoon.
