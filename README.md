@@ -8,7 +8,6 @@ The Prefect setup.
 
 Installs the following applications:
 - Homebrew (https://brew.sh)
-- Homebrew-Cask (https://caskroom.github.io/)
 - iTerm2 (https://www.iterm2.com/)
 - Google Chrome (https://www.google.com/chrome/)
 - 1Password (https://1password.com/)
@@ -31,5 +30,4 @@ Installs various Mac OS extensions.
 ## Configurations
 
 ### Hammerspoon
-The `.hammerspoon` directory can be copied to your home folder. It contains an
-`init.lua` configuration for Hammerspoon.
+The `hammerspoon` directory can be copied to your home folder as `.hammerspoon` (note the leading dot). It contains an `init.lua` configuration for Hammerspoon.

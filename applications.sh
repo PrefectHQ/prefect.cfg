@@ -5,20 +5,12 @@ echo "-> https://brew.sh"
 echo "--------------------------------------------------\n"
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-# Homebrew-Cask
-echo "--------------------------------------------------"
-echo "-> Installing Homebrew-Cask..."
-echo "-> https://caskroom.github.io/"
-echo "--------------------------------------------------\n"
-brew tap homebrew/cask
-
-# Homebrew-Cask
+# Oh My Zsh
 echo "--------------------------------------------------"
 echo "-> Installing Oh My Zsh..."
 echo "-> https://github.com/robbyrussell/oh-my-zsh"
 echo "--------------------------------------------------\n"
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-
 
 # Google Chrome
 echo "--------------------------------------------------"
