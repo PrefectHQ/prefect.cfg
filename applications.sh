@@ -66,3 +66,9 @@ echo "--------------------------------------------------"
 echo "-> Installing Google Cloud SDK..."
 echo "--------------------------------------------------\n"
 brew cask install google-cloud-sdk
+
+# GraphQL Playground
+echo "--------------------------------------------------"
+echo "-> Installing GraphQL Playground..."
+echo "--------------------------------------------------\n"
+brew cask install graphql-playground
