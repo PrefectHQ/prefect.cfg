@@ -14,6 +14,13 @@ brew install zsh
 echo $(which zsh) >> /etc/shells
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
+# oh my zsh plugins
+cd ~/.oh-my-zsh/custom/plugins
+# syntax highlighting
+git clone git://github.com/zsh-users/zsh-syntax-highlighting.git
+# autosuggestion
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+
 # Google Chrome
 echo "--------------------------------------------------"
 echo "-> Installing Chrome..."
@@ -41,6 +48,7 @@ echo "-> Installing VS Code..."
 echo "-> https://code.visualstudio.com/"
 echo "--------------------------------------------------\n"
 brew cask install visual-studio-code
+
 
 # Slack
 echo "--------------------------------------------------"
