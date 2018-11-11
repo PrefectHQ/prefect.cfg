@@ -7,9 +7,11 @@ echo "--------------------------------------------------\n"
 
 # Oh My Zsh
 echo "--------------------------------------------------"
-echo "-> Installing Oh My Zsh..."
+echo "-> Installing zsh & Oh My Zsh..."
 echo "-> https://github.com/robbyrussell/oh-my-zsh"
 echo "--------------------------------------------------\n"
+brew install zsh
+echo $(which zsh) >> /etc/shells
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 # Google Chrome
