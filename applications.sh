@@ -49,7 +49,7 @@ echo "-> https://slack.com/"
 echo "--------------------------------------------------\n"
 brew cask install slack
 
-# Hammerspoon
+# Docker
 echo "--------------------------------------------------"
 echo "-> Installing Docker for Mac..."
 echo "-> https://www.docker.com/docker-mac"
