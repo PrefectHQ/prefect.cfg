@@ -28,3 +28,6 @@ echo "--------------------------------------------------\n"
 
 brew tap homebrew/cask-fonts
 brew cask install font-input  font-source-code-pro font-anonymous-pro font-fira-code
+
+# enable retina display options for non-Apple screens
+sudo defaults write /Library/Preferences/com.apple.windowserver.plist DisplayResolutionEnabled -bool true
