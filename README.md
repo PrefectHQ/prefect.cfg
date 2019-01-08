@@ -8,6 +8,7 @@ The Prefect setup.
 git clone https://github.com/PrefectHQ/prefect.cfg 
 cd prefect.cfg
 ```
+Follow the instructions below.
 
 ## Scripts
 
@@ -51,4 +52,15 @@ Installs Node
 ## Configurations
 
 ### Hammerspoon
-The `hammerspoon` directory can be copied to your home folder as `.hammerspoon` (note the leading dot). It contains an `init.lua` configuration for Hammerspoon.
+[Hammerspoon](https://www.hammerspoon.org/) is a utility for scripting your Mac. The `hammerspoon` directory can be copied to your home folder as `.hammerspoon` (note the leading dot). It contains an `init.lua` configuration for Hammerspoon.
+
+#### Shortcuts for window management
+
+| shortcut | first press | repeated presses |
+| -------- | ----------- | ---------------- |
+| <kbd>cmd</kbd> <kbd>opt</kbd> <kbd>&leftarrow;</kbd> | moves window to the left third of the screen | cycles through left half and left two-thirds|
+| <kbd>cmd</kbd> <kbd>opt</kbd> <kbd>&rightarrow;</kbd> | moves window to the right third of the screen | cycles through right half and right two-thirds|
+| <kbd>cmd</kbd> <kbd>opt</kbd> <kbd>&downarrow;</kbd> | moves window to the middle third of the screen | cycles through "middle half" and "middle two-thirds"|
+| <kbd>cmd</kbd> <kbd>opt</kbd> <kbd>&uparrow;</kbd> | makes window full-screen | moves window to the middle of the screen |
+| <kbd>cmd</kbd> <kbd>ctrl</kbd> <kbd>&downarrow;</kbd> | sends window to next monitor | |
+
