@@ -14,7 +14,9 @@ Follow the instructions below.
 
 ### applications
 
-`sh applications.sh`
+```shell
+sh applications.sh
+```
 
 Installs the following applications:
 - Homebrew (https://brew.sh)
@@ -27,7 +29,9 @@ Installs the following applications:
 
 ### python
 
-`sh python.sh`
+```shell
+sh python.sh
+```
 
 Installs Anaconda and additional Python dependencies, including:
 - black (formatter)
@@ -37,14 +41,18 @@ Installs Anaconda and additional Python dependencies, including:
 
 ### macos
 
-`sh macos.sh`
+```shell
+sh macos.sh
+```
 
 Installs various Mac OS extensions.
 
 
 ### node
 
-`sh node.sh`
+```shell
+sh node.sh
+```
 
 Installs Node
 
@@ -52,7 +60,11 @@ Installs Node
 ## Configurations
 
 ### Hammerspoon
-[Hammerspoon](https://www.hammerspoon.org/) is a utility for scripting your Mac. The `hammerspoon` directory can be copied to your home folder as `.hammerspoon` (note the leading dot). It contains an `init.lua` configuration for Hammerspoon.
+[Hammerspoon](https://www.hammerspoon.org/) is a utility for scripting your Mac. The `hammerspoon` directory contains an `init.lua` configuration for Hammerspoon and can be copied to your home folder as `.hammerspoon` (note the leading dot):
+
+```shell
+cp -r hammerspoon ~/.hammerspoon
+```
 
 #### Shortcuts for window management
 
