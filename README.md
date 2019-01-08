@@ -2,9 +2,18 @@
 
 The Prefect setup.
 
+## Getting started
+
+```shell
+git clone https://github.com/PrefectHQ/prefect.cfg 
+cd prefect.cfg
+```
+
 ## Scripts
 
 ### applications
+
+`sh applications.sh`
 
 Installs the following applications:
 - Homebrew (https://brew.sh)
@@ -17,6 +26,8 @@ Installs the following applications:
 
 ### python
 
+`sh python.sh`
+
 Installs Anaconda and additional Python dependencies, including:
 - black (formatter)
 - ipdb (debugger)
@@ -25,7 +36,17 @@ Installs Anaconda and additional Python dependencies, including:
 
 ### macos
 
+`sh macos.sh`
+
 Installs various Mac OS extensions.
+
+
+### node
+
+`sh node.sh`
+
+Installs Node
+
 
 ## Configurations
 
