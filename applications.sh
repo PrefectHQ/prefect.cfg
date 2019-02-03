@@ -82,3 +82,9 @@ echo "--------------------------------------------------"
 echo "-> Installing GraphQL Playground..."
 echo "--------------------------------------------------\n"
 brew cask install graphql-playground
+
+# GitHub Desktop
+echo "--------------------------------------------------"
+echo "-> Installing GitHub Desktop..."
+echo "--------------------------------------------------\n"
+brew cask install github
