@@ -16,6 +16,8 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 
 # oh my zsh plugins
 cd ~/.oh-my-zsh/custom/plugins
+# fasd
+brew install fasd
 # syntax highlighting
 git clone git://github.com/zsh-users/zsh-syntax-highlighting.git
 # autosuggestion
