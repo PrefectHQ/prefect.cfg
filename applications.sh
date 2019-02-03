@@ -76,6 +76,7 @@ echo "--------------------------------------------------"
 echo "-> Installing Google Cloud SDK..."
 echo "--------------------------------------------------\n"
 brew cask install google-cloud-sdk
+gcloud components install kubectl
 
 # GraphQL Playground
 echo "--------------------------------------------------"
